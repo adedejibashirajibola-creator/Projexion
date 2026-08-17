@@ -1,0 +1,60 @@
+.projexion-img {
+    width: 45px;
+}
+.hero button {
+background:  RGB(138, 121, 255);
+background: linear-gradient(90deg, rgba(138, 121, 255, 1) 0%, rgba(138, 121, 255, 1) 100%, rgba(1, 1, 48, 1) 100%, rgba(0, 5, 26, 1) 100%);
+border-radius: 15px;
+font-size: clamp(15px, 25px, 30px);
+}
+.hero h6 {
+color:  RGB(138, 121, 255);
+border-radius: 15px;
+}
+.hero p {
+color: RGB(107, 122, 138);
+}
+.hero {
+    margin-top: 150px;
+}
+.about p {
+    color: RGB(107, 122, 138);
+}
+.card p {
+     color: RGB(107, 122, 138);
+}
+.jamal button {
+background:  RGB(138, 121, 255);
+background: linear-gradient(90deg, rgba(138, 121, 255, 1) 0%, rgba(138, 121, 255, 1) 100%, rgba(1, 1, 48, 1) 100%, rgba(0, 5, 26, 1) 100%);
+}
+.jamal {
+background: #010130;
+background: linear-gradient(0deg, rgba(1, 1, 48, 1) 0%, rgba(3, 26, 69, 1) 51%, rgba(1, 1, 46, 1) 100%);
+}
+.last {
+    background: linear-gradient(354deg, rgba(27, 88, 194, 1) 0%, rgba(2, 44, 89, 1) 58%, rgba(83, 237, 157, 1) 100%);
+    min-height: 300px;
+    max-height: 350px;
+}
+
+.footer {
+    background: linear-gradient(354deg, rgba(2, 2, 31, 1) 0%, rgba(2, 7, 38, 1) 58%, rgba(2, 2, 54, 1) 100%);
+}
+
+.footer li {
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.footer p {
+    font-size: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer img {
+    width: auto;
+    height: 40px;
+}

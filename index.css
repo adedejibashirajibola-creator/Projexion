@@ -1,0 +1,271 @@
+body {
+    overflow-x: hidden;
+}
+.projexion-img {
+    width: 45px;
+}
+.hero {
+    min-height: 100vh;
+    background-image: url("images/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero h1 {
+    font-size: clamp(2rem, 5vw, 60px);
+}
+
+.hero p {
+    font-size: clamp(1rem, 2vw, 20px);
+}
+
+.about {
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 61, 1) 100%, rgba(0, 123, 255, 1) 100%);
+}
+
+.about h3 {
+    font-size: clamp(2.5rem, 5vw, 60px);
+}
+
+.about p {
+    font-size: clamp(1rem, 2vw, 18px);
+}
+
+.background {
+   background: hsla(0, 0%, 100%, 0.945);
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-item {
+    margin-bottom: 12px;
+    border-radius: 12px !important;
+    overflow: hidden;
+    transition: transform 3s ease;
+}
+
+.accordion-button {
+    background-color: #111827 !important;
+    color: white !important;
+    padding: 20px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:hover {
+    background-color: #1f2937 !important;
+}
+
+.accordion-collapse {
+    display: none;
+}
+
+.accordion-item:hover .accordion-collapse {
+    display: block;
+    transform: translateY(-2px);
+}
+
+.accordion-body {
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 24px;
+    line-height: 1.7;
+}
+.another {
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 61, 1) 100%, rgba(0, 123, 255, 1) 100%);
+}
+.card {
+background: #3a3a85;
+background: linear-gradient(180deg, rgba(58, 58, 133, 1) 0%, rgba(62, 70, 125, 1) 35%, rgba(115, 118, 120, 1) 69%);
+}
+
+.card img {
+    width: 90px;
+    max-width: 100%;
+    height: auto;
+}
+.learn {
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 61, 1) 100%, rgba(0, 123, 255, 1) 100%);
+}
+.learn img {
+    width: 30px;
+    transition: transform 0.3s ease;
+}   
+.learn img:hover {
+    display: block;
+    transform: scale(1.5);
+}
+.learn button {
+    width: 190px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+.learn button:hover {
+    transform: scale(1.1);
+}
+.arrow img {
+    width: 90px;
+}
+.innovation {
+background: #020024;
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 61, 1) 100%, rgba(0, 123, 255, 1) 100%);
+overflow: visible;
+}
+
+.hit {
+    position: relative;
+    width: min(500px, 85vw);
+    height: min(500px, 85vw);
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.hit img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.circle-btn {
+    position: absolute;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(90deg, rgba(7, 0, 64, 1) 0%, rgba(6, 1, 31, 1) 100%);
+}
+.clarity-btn {
+    right: 0px;
+    top: 15%;
+}
+.futurism-btn {
+    right: -40px;
+    top: 45%;
+}
+.inter-btn {
+    right: -40px;
+    top: 80%;
+}
+.innovation-btn {
+    left: -40px;
+    top: 40%;
+}
+.empower-btn {
+    left: -40px;
+    top: 80%;
+}
+.difference {
+    background: linear-gradient(90deg, rgba(7, 0, 64, 1) 0%, rgba(6, 1, 31, 1) 100%);
+}
+.impact {
+    background: linear-gradient(90deg, rgba(7, 0, 64, 1) 0%, rgba(6, 1, 31, 1) 100%);
+    overflow: hidden;
+}
+.impact .card {
+    background: #002e42;
+background: linear-gradient(354deg, rgba(0, 46, 66, 1) 0%, rgba(3, 29, 56, 1) 63%, rgba(83, 237, 157, 1) 100%);
+}
+.ready {
+    min-height: 100vh;
+    background-image: url("images/ready.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.ready-projexion {
+    position: relative;
+    bottom: 50px;
+}
+.ready-action {
+    position: relative;
+    bottom: 57px;
+}
+.ready .all {
+    background: linear-gradient(90deg, rgba(7, 0, 64, 1) 0%, rgba(6, 1, 31, 1) 100%);
+}
+
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero button {
+        width: auto !important;
+        padding: 12px 25px;
+    }
+
+    .hit {
+        width: 80vw;
+        height: 80vw;
+    }
+
+    .circle-btn {
+        font-size: 12px;
+        padding: 8px !important;
+    }
+
+    .futurism-btn,
+    .inter-btn {
+        right: -20px;
+    }
+
+    .innovation-btn,
+    .empower-btn {
+        left: -20px;
+    }
+}
+.last {
+    background: linear-gradient(354deg, rgba(27, 88, 194, 1) 0%, rgba(2, 44, 89, 1) 58%, rgba(83, 237, 157, 1) 100%);
+    min-height: 300px;
+    max-height: 350px;
+}
+
+.footer {
+    background: linear-gradient(354deg, rgba(2, 2, 31, 1) 0%, rgba(2, 7, 38, 1) 58%, rgba(2, 2, 54, 1) 100%);
+}
+
+.footer li {
+    font-size: 10px;
+    margin-bottom: 8px;
+}
+
+.footer p {
+    font-size: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+.footer img {
+    width: auto;
+    height: 40px;
+}
+.just {
+background: #010130;
+background: linear-gradient(0deg, rgba(1, 1, 48, 1) 0%, rgba(3, 26, 69, 1) 51%, rgba(12, 12, 145, 0.7) 100%);
+}
+.two {
+    height: 240px;
+    width: auto;
+}
+.three {
+    background: #010130;
+background: linear-gradient(0deg, rgba(1, 1, 48, 1) 0%, rgba(3, 26, 69, 1) 51%, rgba(12, 12, 145, 0.7) 100%);
+}
