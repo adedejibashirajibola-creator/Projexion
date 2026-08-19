@@ -41,12 +41,8 @@
         </li>
       </ul>
       <form class="d-flex gap-2">
-        <button class="btn text-primary bg-white fw-bold px-4 " type="submit">
-          <a href="demo.html" class="text-decoration-none text-primary">Set up a Demo</a>
-        </button>
-        <button class="btn text-white set fw-bold px-4" type="submit">
-             <a href="demo.html" class="text-decoration-none text-primary"></a>Set up a Demo
-            </button>
+        <a href="demo.html" class="btn text-primary bg-white fw-bold px-4">Set up a Demo</a>
+        <a href="demo.html" class="btn text-white set fw-bold px-4 text-decoration-none">Set up a Demo</a>
       </form>
     </div>
   </div>
@@ -67,7 +63,7 @@
         <p class="text-center text-uppercase fw-bold">Customers & partners</p>
         <h4 class="text-center text-dark fs-2">The teams building with Projexion</h4>
         <div>
-        <marquee behavior="scrolling" direction="left" class="image-marquee">
+        <div class="image-marquee" role="region" aria-label="Customers and partners">
             <div class="d-flex image-track py-5">
             <div>
             <img src="images/sign_6243353.png" class="d-block w-100" alt="...">
@@ -112,7 +108,7 @@
             <img src="images/worker_7313366.png" class="d-block w-100" alt="...">
             </div>
             </div>
-        </marquee>
+        </div>
         </div>
     </div>
 </section>
