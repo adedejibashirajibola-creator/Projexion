@@ -195,6 +195,11 @@ background: linear-gradient(354deg, rgba(0, 46, 66, 1) 0%, rgba(3, 29, 56, 1) 63
 .ready .all {
     background: linear-gradient(90deg, rgba(7, 0, 64, 1) 0%, rgba(6, 1, 31, 1) 100%);
 }
+.ready-action button {
+    overflow: hidden;
+    min-width: 70px;
+    max-width: 90px;
+}
 
 @media (max-width: 768px) {
     .hero h1 {
