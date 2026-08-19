@@ -1,6 +1,9 @@
 .projexion-img {
     width: 45px;
 }
+.set {
+    background:  RGB(138, 121, 255);
+}
 .hero button {
 background:  RGB(138, 121, 255);
 background: linear-gradient(90deg, rgba(138, 121, 255, 1) 0%, rgba(138, 121, 255, 1) 100%, rgba(1, 1, 48, 1) 100%, rgba(0, 5, 26, 1) 100%);

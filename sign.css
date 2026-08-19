@@ -1,0 +1,16 @@
+.sign img {
+    width: auto;
+    height: 40px;
+}
+.risk {
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+.lock img {
+    width: auto;
+    height: 20px;
+}
+.second {
+    height: 60vh;
+    overflow: hidden;
+}

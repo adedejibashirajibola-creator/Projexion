@@ -24,15 +24,38 @@ color: RGB(107, 122, 138);
 .hero {
     margin-top: 150px;
 }
-.about p {
-    color: RGB(107, 122, 138);
+.slide p {
+    color:  RGB(138, 121, 255);
 }
-.card p {
-     color: RGB(107, 122, 138);
+.image-marquee {
+    width: 100%;
+    overflow: hidden;
 }
-.replace button {
-background:  RGB(138, 121, 255);
-background: linear-gradient(90deg, rgba(138, 121, 255, 1) 0%, rgba(138, 121, 255, 1) 100%, rgba(1, 1, 48, 1) 100%, rgba(0, 5, 26, 1) 100%);
+.image-track {
+    display: flex;
+    width: max-content;
+    gap: 20px;
+    animation: scroll 20s linear infinite;
+}
+.image-track img {
+    width: auto;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    gap: 50px;
+    filter: grayscale(100%);
+}
+.case h6 {
+    color:  RGB(138, 121, 255);
+    font-size: 13px;
+}
+.case h5 {
+    font-size: 15px;
+}
+.case a {
+    color:  RGB(138, 121, 255);
+    font-size: 13px;
+    text-decoration: none;
 }
 .jamal button {
 background:  RGB(138, 121, 255);

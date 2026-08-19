@@ -4,35 +4,47 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Hello, world!</title>
-    <link rel="stylesheet" href="solutions.css">
+    <link rel="stylesheet" href="demo.css">
   </head>
   <body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top px-3 shadow-sm">
   <div class="container-fluid">
-        <img src="images/projexion.png" alt="" srcset="" class="projexion-img">
-    <a class="navbar-brand text-dark" href="index.html">Projexion</a>
+    <a class="navbar-brand d-flex align-items-center text-dark" href="index.html">
+      <img src="images/projexion.png" alt="Projexion" class="projexion-img">
+      <span class="ms-2">Projexion</span>
+    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+       <li class="nav-item">
+          <a class="nav-link text-dark" href="platform.html">
+            Platform
+          </a>
+        </li>
         <li class="nav-item">
-          <a class="nav-link active text-dark" aria-current="page" href="platform.html">Platform</a>
+          <a class="nav-link text-dark" href="solutions.html">
+            Solutions
+          </a>
         </li>
-         <li class="nav-item">
-          <a class="nav-link active text-dark" aria-current="page" href="solutions.html">Solutions</a>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="customer.html">
+            Resources
+          </a>
         </li>
-         <li class="nav-item">
-          <a class="nav-link active text-dark" aria-current="page" href="customer.html">Customer</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link active text-dark" aria-current="page" href="about.html">About</a>
+        <li class="nav-item">
+          <a class="nav-link text-dark" href="about.html">
+            About
+          </a>
         </li>
       </ul>
-      <form class="d-flex gap-2">
-        <button class="btn text-primary bg-white fw-bold px-4 " type="submit">Sign in</button>
-        <button class="btn text-white set fw-bold px-4" type="submit">Set up a Demo</button>
+      <form class="d-flex">
+        <button class="btn text-dark set fw-bold px-4" type="button" data-bs-toggle="modal" data-bs-target="#demoModal">
+          <a href="demo.html" class="text-decoration-none text-white">Set up a Demo</a>
+        </button>
       </form>
     </div>
   </div>
@@ -41,78 +53,51 @@
 <main class="hero py-5 align-items-center justify-content-center d-flex">
     <div class="container">
         <div class="col-lg-8 col-md-12">
-            <h6 class="fw-bold fs-5 py-2">For technology & VDC leaders</h6>
-            <h1 class="fw-bold fs-1">A single source of truth, without ripping out your stack.</h1>
-            <p class="fs-4 lh-5 py-2">You're the champion. Connector breadth is your headline requirement, and Projexion answers it: 
-                a single view of project health without chasing Procore exports for the PMs.</p>
-            <button type="button" class="btn w-25 p-2 text-white fs-5 fw-bold">Book a demo</button>
+            <h6 class="fw-bold fs-5 py-2">Contact</h6>
+            <h1 class="fw-bold fs-1">Talk to a construction-native team.</h1>
+            <p class="fs-4 lh-5 py-2">Questions about connectors, security, or fit? Grab a time that works, or just drop us a line.</p>
         </div>
     </div>
 </main>
 
-<section class="about bg-light py-5 ">
-    <div class="container py-5">
-        <div class="col-lg-8 col-md-12">
-            <h3 class="text-dark fw-bold fs-1 py-2">Why we exist</h3>
-            <p class="lh-3 fs-5">"Our data lives in 14 different systems." "We can't get a single view of project health." "I spend half my time chasing Procore exports for the PMs."</p>
-            <p class="lh-3 fs-5">We lead with connector breadth, time-to-value, and decision-grade intelligence, not AI buzzwords. You've been pitched AI by 30 vendors this quarter.</p>
-        </div>
-    </div>
-</section>
-<section class="bg-white py-5">
-<h1 class="text-center fw-bold py-5">What you lead with</h1>
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <div class="card h-100 shadow-lg">
-  <img src="images/alerting.png" class="card-img-top w-25" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Integrations</h5>
-    <p class="card-text">Procore, Sage, Autodesk, P6/MSP, connector breadth that proves single source of truth without ripping out the stack.</p>
-    <a href="#">Explore →</a>
-  </div>
-</div>
-        </div>
-<div class="col">
-<div class="card h-100 shadow-lg">
-  <img src="images/alerting.png" class="card-img-top w-25" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Data foundation</h5>
-    <p class="card-text">The single source of truth you've been trying to build, reconciled and versioned.</p>
-    <a href="#">Explore →</a>
-  </div>
-</div>
-</div>
-<div class="col">
-<div class="card h-100 shadow-lg">
-  <img src="images/alerting.png" class="card-img-top w-25" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">500+ KPI library</h5>
-    <p class="card-text">A KPI catalog that would take a year to build in-house, delivered and maintained.</p>
-    <a href="#">Explore →</a>
-  </div>
-</div>
-</div>
-    </div>
-</div>
-</section>
-<section class="replace bg-light">
-    <div class="container py-5">
-        <div class="col py-5">
-            <h1 class=" text-center fw-bold text-dark">“We replaced a 5-year internal build in weeks, 6,000+ hours and $1M+ saved a year.”</h1>
-            <h5 class="text-center text-dark">Replacing a brittle internal BI build</h5>
-        <p class="text-muted text-center">ENR Top 400 GC · 13X ROI</p>
-        </div>
-    </div>
-</section>
-
-<section class="jamal">
-    <div class="container py-5">
-        <div class="col py-5">
-            <h1 class=" text-center fw-bold text-white">Single source of truth, on your stack.</h1>
-            <h5 class="text-center text-white">See the connectors light up on your systems.</h5>
-            <div class="justify-content-center align-items-center text-center py-4">
-            <button class="btn text-white border-0 rounded p-3 fs-5 fw-bold" type="button">Book a Demo</button>
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-12 col-md-6">
+                <h5 class="fw-bold fs-2">Book a time</h5>
+                <p class="text-muted">Pick a slot and a construction-native specialist will walk you through Projexion on data like yours.</p>
+                <div class="mt-4">
+                    <ul class="list-unstyled">
+                        <li>
+                            <i class="bi bi-check-circle-fill text-secondary me-2"></i>
+                            Collect one-time and recurring payments from your app or website
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle-fill text-secondary me-2"></i>
+                            Make instant transfers
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle-fill text-secondary me-2"></i>
+                            Retrieve all your transaction and customer data
+                        </li>
+                        <li>
+                            <i class="bi bi-check-circle-fill text-secondary me-2"></i>
+                            Verify the identity of customers
+                        </li>
+                    </ul>
+                </div>
+                <p class="text-muted user-select-none">Or just want to get in touch?</p>
+                <a href="https//contact@projexion.io" class="text-decoration-none">
+                    <i class="bi bi-envelope-fill"></i>
+                    contact@projexion.io
+                </a>
+            </div>
+            <div class="col-lg-6 col-12 col-md-6">
+                <div class="input-group h-25">
+                <span class="input-group-text">></span>
+                <input type="month" class="form-control text-center" aria-label="Next arrow icon">
+                <span class="input-group-text"><</span>
+                </div>
             </div>
         </div>
     </div>
